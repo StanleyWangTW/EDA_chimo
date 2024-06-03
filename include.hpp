@@ -178,4 +178,8 @@ bool parseInputFile(const std::string& filename,
     fin.close();
     return true;
 }
+
+double cost(const Weights& weights) {
+  return 0;
+}
 #endif
